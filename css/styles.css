@@ -152,11 +152,16 @@ body {
 }
 
 .footer-logo{
+    font-family: 'Raleway';
     color: var(--primary-white-color);
     text-decoration: none;
         font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
+}
+
+.address{
+    font-style: normal;
 }
 
 .address-text{
@@ -167,7 +172,8 @@ body {
 }
 
 .address-link{
-    color: var(--primary-text-color);
+    color: var(--primary-white-color);
+        opacity: 0.6;
         font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
